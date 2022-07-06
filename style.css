@@ -1,8 +1,12 @@
 body{
- font-family: 'Roboto', sans-serif;
+ font-family: 'poppins', sans-serif;
+  margin:0px;
 }
 h1{
    pont-size:400px;
+}
+h2{
+   pont-size:300px;
 }
 .orange-color{
    color:orange;
@@ -10,15 +14,13 @@ h1{
 p{
    color: red;
 }
-  section{
+  .flexible-container{
      display:flex;
-     margin-bottom: 100px;
+     margin-bottom: 150px;
   }
   .half-width{
      width:50%;
-     padding-top:10%;
-     padding-bottom: 10%;
-     padding-left: 5%;
+     padding-left:5%;
   }
   .half-width img{
         width:80%;
@@ -26,8 +28,8 @@ p{
     .link-button{
        text-decoration:none;
        background-image:linear-gradient(orange,tomato);
-       padding:10px 40px; 
-       color:white;
+       padding: 10px 40px; 
+       color: white;
        font-weight: 700;
        border-radius:5px;
     }
@@ -40,5 +42,28 @@ p{
       background-repeat: no-repeat;
       background-position:right;
     }
+    .experience-area{
+         background-image:url(image/exp-bg.png);
+         background-repeat: no-repeat;
+         background-position: left;
+    }
+    .experience-item{
+      width:40%;
+      margin-right: 10%;
+      margin-right: 10%;
+      padding-left: 20px;
+      border-radius: 10px;
+      box-shadow: 10px 10px 40px gray;
+   
+    }
+    #full-stack-developer{
+       borderleft:7px solid tomato;
+    }
+     #sweet-web-developer{
+      border-left:7px solid lawngreen;
+     }
+     footer p{
+      text-align: center;
+     }
     }
 }
