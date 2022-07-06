@@ -8,10 +8,11 @@ h1{
    color:orange;
 }
 p{
-   color: blue;
+   color: red;
 }
   section{
      display:flex;
+     margin-bottom: 100px;
   }
   .half-width{
      width:50%;
@@ -33,5 +34,11 @@ p{
     .top-banner{
       backgtound-image: url(image/top-banner.png);
        background-repeat: no-repeat;
+    }
+    .dream-big{
+      background-image: url(image/dream-bg.png);
+      background-repeat: no-repeat;
+      background-position:right;
+    }
     }
 }
