@@ -2,10 +2,13 @@ body{
  font-family: 'Roboto', sans-serif;
 }
 h1{
-   pont-size:50px;
+   pont-size:400px;
 }
 .orange-color{
    color:orange;
+}
+p{
+   color: blue;
 }
   section{
      display:flex;
@@ -19,4 +22,16 @@ h1{
   .half-width img{
         width:80%;
   }
+    .link-button{
+       text-decoration:none;
+       background-image:linear-gradient(orange,tomato);
+       padding:10px 40px; 
+       color:white;
+       font-weight: 700;
+       border-radius:5px;
+    }
+    .top-banner{
+      backgtound-image: url(image/top-banner.png);
+       background-repeat: no-repeat;
+    }
 }
